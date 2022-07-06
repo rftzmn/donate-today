@@ -14,12 +14,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
-.banner-description{
-    /* margin-top: 300px; */
-}
+
 .title1{
     font-size: 60px;
+    font-weight: bolder;
 }
 .banner p{
     margin-bottom: 30px;
@@ -33,4 +33,46 @@
     padding: 15px 38px;
     font-size: 18px;
     border-radius: 10px;
+}
+
+.donate-today{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.donate-today h1{
+    font-size: 48px;
+}
+.donate-today p{
+    margin-bottom: 30px;
+}
+.donate-today ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.donate-today li{
+    /* width: 150px; */
+    /* height: 150px; */
+    padding: 60px;
+    background-color: #FAFAFA;
+    margin: 10px;
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #707070;
+}
+.donate-today li:hover{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+.donate-today input{
+    width: 900px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
 }
