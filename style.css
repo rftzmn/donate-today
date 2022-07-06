@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: 'Arima', cursive;
+}
+.banner{
+    
+    /* width: 100%; */
+    height: 669px;
+    color: white;
+    background-image: url('./images/donation9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-description{
+    /* margin-top: 300px; */
+}
+.title1{
+    font-size: 60px;
+}
+.banner p{
+    margin-bottom: 30px;
+}
+.btn-text{
+    color: white;
+    background-color: #FF5959;
+    text-decoration: none;
+    height: 100px;
+    width: 200px;
+    padding: 15px 38px;
+    font-size: 18px;
+    border-radius: 10px;
+}
