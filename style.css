@@ -104,3 +104,43 @@ section{
 .plan-card3{
     background-color: rgba(128, 128, 34, 0.233);
 }
+
+.update{
+    text-align: center;
+}
+.subscribe-area{
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.subscribe{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.subscribe input{
+    font-size: 18px;
+    background-color: #D9D9D9;
+    border: none;
+}
+.subscribe button{
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    padding: 5px 25px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+footer h1{
+    color: #FF5959;
+    font-style: oblique;
+}
