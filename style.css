@@ -105,7 +105,7 @@ section{
     background-color: #FFF4D6;
 }
 .overview{
-    background-color: orange;
+    background-color: rgb(233, 136, 98);
     color: white;
     height: 200px;
     display: flex;
